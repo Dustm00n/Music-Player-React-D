@@ -4,7 +4,7 @@ import { IoPlaySkipForward } from "react-icons/io5";
 import { IoPlaySkipBack } from "react-icons/io5";
 import { CgPlayPauseO } from "react-icons/cg";
 
-const FooterAndButtons = (props, ref) => {
+const Botones = (props, ref) => {
 	let skipBack = () => {
 		if (props.songs[props.songsIndex - 1] !== undefined) {
 			props.selectIndexSong(props.songsIndex - 1);
@@ -59,4 +59,4 @@ const FooterAndButtons = (props, ref) => {
 		</>
 	);
 };
-export default forwardRef(FooterAndButtons);
+export default forwardRef(Botones);

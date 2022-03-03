@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import botones from "./botones.jsx";
+import Botones from "./botones.jsx";
 
 const PlayList = () => {
 	const [songs, setSongs] = useState([]);
