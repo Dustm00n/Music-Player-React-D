@@ -1,8 +1,7 @@
 import React from "react";
 
-//include images into your bundle
-
 import PlayList from "./playlist.jsx";
+import { AudioPlayer } from "./AudioPlayer.js";
 
 //create your first component
 const Home = () => {
